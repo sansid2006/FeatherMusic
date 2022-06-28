@@ -8,3 +8,8 @@ body {
   width: 576px;
   height: 285px;
 }
+
+.container {
+  width: 80%
+    magin: 0 auto;
+}
