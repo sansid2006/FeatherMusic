@@ -1,1 +1,10 @@
+body {
+  background #eeeee4;
+}
 
+.logo {
+  text-indent: -999999px;
+  background: url('FTMlogo.png');
+  width: 576px;
+  height: 285px;
+}
