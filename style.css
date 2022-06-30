@@ -15,8 +15,13 @@ body {
 }
 
 header  {
-  width: 80% 
-    margin: 0 auto;
+  background: #55d6aa;
+}
+
+header: :after {
+  content: '';
+  display: table;
+  clear: both;
 }
 
 .logo {
