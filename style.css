@@ -13,3 +13,38 @@ body {
   width: 80%
     magin: 0 auto;
 }
+
+header  {
+  width: 80% 
+    margin: 0 auto;
+}
+
+.logo {
+  float: left:
+  padding: 10px 0;
+}
+
+nav {
+  float: right;
+}
+
+nav ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+nav li {
+  display: inline-block;
+  margin-line: 70px;
+  padding-top: 23px;
+}
+
+nav a {
+  
+
+nav li {
+  display: inline-block;
+  margin-left: 70px;
+  padding-top: 25px;
+} 
