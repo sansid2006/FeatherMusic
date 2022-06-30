@@ -1,12 +1,15 @@
 body {
-  background #eeeee4;
+  margin: 0
+  background: #eeeee4;
+  font-family: 'Gentium book plus' ,sans-serif;
+  font-weight: 300;
 }
 
 .logo {
   text-indent: -999999px;
   background: url('FTMlogo.jpg');
   width: 576px;
-  height: 285px;
+  height: 280px;
 }
 
 .container {
@@ -15,7 +18,7 @@ body {
 }
 
 header  {
-  background: #55d6aa;
+  background: #55d6aa;     
 }
 
 header: :after {
@@ -26,7 +29,7 @@ header: :after {
 
 .logo {
   float: left:
-  padding: 10px 0;
+  padding: 10px 0;  
 }
 
 nav {
@@ -35,21 +38,42 @@ nav {
 
 nav ul {
   margin: 0;
-  padding: 0;
+  padding: 100;
   list-style: none;
 }
 
 nav li {
   display: inline-block;
-  margin-line: 70px;
-  padding-top: 23px;
+  margin-line: 100px; 
+ padding-top: 0px;
+  
+  position: relative;
 }
 
 nav a {
+  color: #444;
+  text-decoration: none;
+  text-transform: uppercase;
+}
   
+nav a:hover {
+ color: #59F;
+}
 
-nav li {
-  display: inline-block;
-  margin-left: 70px;
-  padding-top: 25px;
-} 
+nav a::before {
+  content: '';
+  display: block;
+  height: 5px;
+  background-color: #59F;
+  
+  position: absolute;
+  top: 0;
+  width: 0%;
+  
+  transition: all ease-in-out 500ms;
+  
+}
+
+nav a:hover::before {
+  width: 100%;
+}
