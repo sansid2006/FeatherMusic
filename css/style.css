@@ -158,7 +158,7 @@ a {
 }
 
 a:hover {
-  color: #fc8807;
+  color: #07aefc;
   text-decoration: underline;
 }
 
@@ -208,7 +208,7 @@ table {
 caption {
   padding-top: 0.75rem;
   padding-bottom: 0.75rem;
-  color: #6c757d;
+  color: #b5c3cf;
   text-align: left;
   caption-side: bottom;
 }
