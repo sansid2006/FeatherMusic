@@ -2365,8 +2365,8 @@ fieldset:disabled a.btn {
 
 .btn-primary {
   color: #212529;
-  background-color: #FDAC53;
-  border-color: #FDAC53;
+  background-color: #2596be;
+  border-color: #2596be;
 }
 
 .btn-primary:hover {
@@ -9572,7 +9572,7 @@ h6,
 }
 
 .carousel-indicators .active {
-  background-color: #FDAC53;
+  background-color: ##2596be;
 }
 
 @media (max-width: 991.98px) {
